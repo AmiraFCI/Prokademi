@@ -1,0 +1,12 @@
+{
+  "Logincred":
+  [{
+    "username": "admin@akademiashqiptare.org",
+    "password": "akademia"
+  },
+  {
+    "username": "admin@akademiashqiptare.org",
+    "password": "akadem"
+  }
+    ]
+}

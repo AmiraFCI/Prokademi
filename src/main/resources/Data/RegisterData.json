@@ -1,0 +1,25 @@
+
+[
+  {
+   "full name ":   "asd",
+   "Email address": "asd@asd.com",
+ "Password": "asd123",
+ " Repeat Password": "asd123"
+  }
+
+
+
+,{ "full name ":   "asd",
+    "Email address": "asd@asd.com",
+    "Password": "asd123",
+    " Repeat Password": "asd123"
+  }
+
+,{ "full name ":   "asd",
+    "Email address": "asd@asd.com",
+    "Password": "asd23",
+    " Repeat Password": "asd123"
+  }
+
+]
+

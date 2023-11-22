@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Utilities.EventListnerReporter"/>
+    </listeners>
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="E:\sbs\pokademiproject\Procademi_project">
+        <classes>
+
+            <class name="LoginTests">
+                <methods>
+                    <include name="loginWithValidEmailAndValidPassword_P"/>
+
+                    <include name="loginWithInvalidEmailAndInvalidPassword_N"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <parameter name="browser" value="chrome"/>
+
+    <test  name="Check Registration With valid data">
+        <classes>
+            <class name="registerationTests">
+                <methods>
+                    <include name="RegisterTest_P"/>
+                    <include name="RegisterTest_withDuplicatedData_N"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test  name="Check Registration With valid data">
+        <classes>
+            <class name="navigationofmosuleSectionTests">
+                <methods>
+                    <include name="loginWithValidEmailAndValidPassword_P"/>
+                    <include name="navigationofmosuleSectionTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+</suite>

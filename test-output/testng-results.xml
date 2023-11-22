@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-22T13:38:51 EET" name="Default Suite" finished-at="2023-11-22T13:39:01 EET" duration-ms="10105">
+    <groups>
+    </groups>
+    <test started-at="2023-11-22T13:38:51 EET" name="Procademi_project" finished-at="2023-11-22T13:39:01 EET" duration-ms="10105">
+      <class name="booksTests">
+        <test-method is-config="true" signature="report()[pri:0, instance:booksTests@2bfc268b]" started-at="2023-11-22T13:38:51 EET" name="report" finished-at="2023-11-22T13:38:51 EET" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:booksTests@2bfc268b]" started-at="2023-11-22T13:38:51 EET" name="setup" finished-at="2023-11-22T13:38:58 EET" duration-ms="7138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIfCanOpenDetailsofAllBookAddBuyItAsGuest()[pri:0, instance:booksTests@2bfc268b]" started-at="2023-11-22T13:38:58 EET" name="checkIfCanOpenDetailsofAllBookAddBuyItAsGuest" finished-at="2023-11-22T13:39:01 EET" duration-ms="2674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfCanOpenDetailsofAllBookAddBuyItAsGuest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:booksTests@2bfc268b]" started-at="2023-11-22T13:39:01 EET" name="afterTest" finished-at="2023-11-22T13:39:01 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- booksTests -->
+    </test> <!-- Procademi_project -->
+  </suite> <!-- Default Suite -->
+</testng-results>
